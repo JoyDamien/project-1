@@ -1,1 +1,3 @@
 # project-1
+In this project, first we creat an Azure resource group named azure-rg (its name on the Azure Portal would be RG01), then we creat two Azure AD users named respectively trainer and project-owner (we use explicit declare), then we creat AWS S3 bucket resource (explicit declare) - two buckets, then four AWS IAM users(explicit declare), then, in order to create an Azure storage account named azure-sa, we need to create Azure virtual network azure-vn, then Azure Subnet azure-sbnet.
+Finally, we create Azure network interface azure-ni in order to create an Azure virtual machine named azure-vm (implicit declare).
